@@ -3,9 +3,12 @@
 I created this project to learn [Vue.js](https://vuejs.org/).
 
 It simply displays a bunch of tweets. The [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
-it uses is created from **[CacheTwitterCdk](https://github.com/alexhnguyen/CacheTwitterCdk)**.
+it queries to get data is created from **[CacheTwitterCdk](https://github.com/alexhnguyen/CacheTwitterCdk)**.
 
-![sample](images/2021-02-11_1.png)
+This project is inspired from https://projects.propublica.org/politwoops/. It is
+a website that tracks deleted tweets from public officals.
+
+![sample](images/2021-02-13.png)
 
 ## Install
 
@@ -29,5 +32,8 @@ yarn serve
 
 - ~~query API Gateway using [axios](https://www.npmjs.com/package/axios), and then display it~~
 - ~~create a component for each Tweet~~
+- ~~add routing~~
+- make the different pages "reusable" components
+- add a header. seperate by country/province/city
 - add the rest of the columns
 - make the link that goes to the original tweet clickable
