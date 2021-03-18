@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <q-btn color="primary" label="Primary" />
+
     <Header></Header>
     <router-view></router-view>
 
